@@ -1,0 +1,26 @@
+{
+  "name": "adla-ai-report",
+  "version": "1.0.0",
+  "description": "Serverless function for generating AI property analysis reports",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "keywords": [
+    "adla",
+    "ai",
+    "report",
+    "openai",
+    "serverless",
+    "vercel"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "openai": "^4.17.0"
+  },
+  "devDependencies": {
+    "vercel": "^32.3.0"
+  }
+} 
